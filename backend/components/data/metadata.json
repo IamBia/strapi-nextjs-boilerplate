@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_metadata",
+  "info": {
+    "name": "Metadata",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    }
+  }
+}

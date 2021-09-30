@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_buttons",
+  "info": {
+    "name": "buttons",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  }
+}
