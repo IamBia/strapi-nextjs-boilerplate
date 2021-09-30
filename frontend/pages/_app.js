@@ -4,6 +4,7 @@ import "../assets/css/style.css";
 import { createContext } from "react";
 import { getStrapiMedia } from "../utils/media";
 import { fetchAPI } from "../utils/api";
+import Navigation from "../components/navigation"
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
@@ -18,6 +19,7 @@ export const GlobalContext = createContext({});
         {/* <link rel="shortcut icon" href={getStrapiMedia(global.favicon)} /> */}
       </Head>
       <GlobalContext.Provider value={global}>
+        <Navigation />
         <Component {...pageProps} />
       </GlobalContext.Provider>
     </>

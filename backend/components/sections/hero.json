@@ -1,8 +1,9 @@
 {
   "collectionName": "components_sections_heroes",
   "info": {
-    "name": "Hero",
-    "icon": "cube"
+    "name": "hero",
+    "icon": "cube",
+    "description": ""
   },
   "options": {},
   "attributes": {
